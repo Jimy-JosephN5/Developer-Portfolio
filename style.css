@@ -1,0 +1,32 @@
+body {
+  background-color: rgba(133, 235, 235, 0.714);
+  font-family: "Poppins", sans-serif;
+}
+h1 {
+  font-size: 50px;
+}
+.jimy-joseph {
+  color: orange;
+}
+p {
+  font-size: 22px;
+}
+section {
+  display: flex;
+}
+.half-width {
+  width: 50%;
+  padding-left: 3%;
+}
+.half-width img {
+  width: 70%;
+}
+.link-button {
+  text-decoration: none;
+  background-image: linear-gradient(orange, tomato);
+  color: white;
+  font-weight: 700;
+  font-size: 22px;
+  padding: 10px 40px;
+  border-radius: 5px;
+}
