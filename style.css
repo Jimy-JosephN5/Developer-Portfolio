@@ -1,6 +1,6 @@
 body {
-  background-color: rgba(133, 235, 235, 0.714);
   font-family: "Poppins", sans-serif;
+  margin: 0;
 }
 h1 {
   font-size: 50px;
@@ -29,4 +29,8 @@ section {
   font-size: 22px;
   padding: 10px 40px;
   border-radius: 5px;
+}
+.top-banner {
+  background-image: url(/images/top-banner.png);
+  background-repeat: no-repeat;
 }
