@@ -20,12 +20,13 @@ h2 {
 }
 
 .new-color {
-  color: rgba(26, 111, 13, 0.53);
+  color: rgba(50, 44, 41, 0.904);
 }
 
 p {
   font-size: 18px;
   color: rgba(74, 72, 72, 0.755);
+  text-align: justify;
 }
 
 .flexible-container {
@@ -70,9 +71,11 @@ p {
   width: 40%;
   margin: 5% 5%;
   padding-left: 20px;
-  border-radius: 10px;
+  padding-right: 20px;
+  border-radius: 8px;
   box-shadow: 10px 10px 30px gray;
   background-color: rgba(87, 140, 140, 0.721);
+  border-left: solid black;
 }
 
 .Experience-area {
@@ -80,4 +83,26 @@ p {
   background-repeat: no-repeat;
   background-position: left;
   background-size: 90px;
+}
+
+#web-developer-experience {
+  border-left: 7px solid;
+  border-image: linear-gradient(
+    rgba(206, 175, 116, 0.802),
+    rgba(177, 104, 91, 0.755)
+  );
+  border-image-slice: 2;
+}
+
+#web-king {
+  border-left: 7px solid;
+  border-image: linear-gradient(
+    rgba(71, 54, 37, 0.7),
+    rgba(89, 89, 164, 0.714)
+  );
+  border-image-slice: 1;
+}
+
+footer p {
+  text-align: center;
 }
