@@ -5,6 +5,9 @@ body {
 h1 {
   font-size: 50px;
 }
+h2 {
+  font-size: 40px;
+}
 .jimy-joseph {
   color: orange;
 }
@@ -12,7 +15,7 @@ p {
   font-size: 18px;
   color: rgba(74, 72, 72, 0.755);
 }
-section {
+.flexible-container {
   display: flex;
   margin-bottom: 150px;
 }
@@ -43,4 +46,17 @@ section {
   background-color: rgba(87, 140, 140, 0.721);
   background-size: 100px;
   padding-right: 100px;
+}
+.Experience-item {
+  width: 40%;
+  margin: 5% 5%;
+  padding-left: 20px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 30px gray;
+}
+.Experience-area {
+  background-image: url(/images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 90px;
 }
