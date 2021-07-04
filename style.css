@@ -9,7 +9,7 @@ h1 {
   color: orange;
 }
 p {
-  font-size: 25px;
+  font-size: 15px;
 }
 section {
   display: flex;
@@ -39,7 +39,7 @@ section {
   background-image: url(/images/dream-bg.png);
   background-repeat: no-repeat;
   background-position: right;
-  background-size: 150px;
-  background-size: 200px;
-  padding-right: 200px;
+  background-size: auto;
+  background-size: 100px;
+  padding-right: 90px;
 }
