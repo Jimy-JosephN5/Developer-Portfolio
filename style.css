@@ -11,6 +11,12 @@ h2 {
 .jimy-joseph {
   color: orange;
 }
+.box-color {
+  color: rgba(72, 20, 1, 0.741);
+}
+.new-color {
+  color: rgba(26, 111, 13, 0.53);
+}
 p {
   font-size: 18px;
   color: rgba(74, 72, 72, 0.755);
@@ -53,6 +59,7 @@ p {
   padding-left: 20px;
   border-radius: 10px;
   box-shadow: 10px 10px 30px gray;
+  background-color: rgba(87, 140, 140, 0.721);
 }
 .Experience-area {
   background-image: url(/images/exp-bg.png);
